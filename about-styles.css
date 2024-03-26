@@ -3,7 +3,7 @@
 main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure that main takes up at least the full height of the viewport */
+    min-height: 100vh; /*  main takes up at least the full height of the viewport */
 }
 
 /* Update styles for the footer on the About Us page */
