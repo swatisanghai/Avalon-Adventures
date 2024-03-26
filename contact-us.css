@@ -1,0 +1,60 @@
+/* CSS styles for Contact Us page */
+
+
+.contact-form,
+.contact-info {
+    padding-left: 20px; /* Adjust the left padding */
+}
+
+h1 {
+    text-align: center; /* Center-align the heading */
+}
+
+
+/* Add margin-bottom to create space between form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Add padding and border-radius to form elements for rounded corners */
+.contact-form form,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Add border for clarity */
+}
+
+/* Adjust button padding and border-radius */
+/*button {
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none; 
+}*/
+/* CSS styles for Contact Us page */
+
+button {
+    background-color: #1d4286; /* Default button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0097b2; /* Button color on hover */
+}
+
+
+/* Add box-shadow to create a raised effect */
+.contact-form form {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Add margin-bottom to the button for separation from the form */
+button {
+    margin-bottom: 20px;
+}
